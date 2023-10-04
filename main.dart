@@ -52,16 +52,28 @@ void main() {
   // 5: Collection
 
   // List
-  List<String> listPersons = [];
+  // List<String> listPersons = [];
 
   // Thêm dữ liệu vào mảng
-  listPersons.add("Tèo");
-  listPersons.add("Tí");
-  listPersons.add("Tủn");
+  // listPersons.add("Tèo");
+  // listPersons.add("Tí");
+  // listPersons.add("Tủn");
 
   // Xoá dữ liệu
-  listPersons.removeAt(0);
+  // listPersons.removeAt(0);
 
   // Cập nhật
-  listPersons[0] = "Toàn";
+  // listPersons[0] = "Toàn";
+
+  // Set
+  // Set<int> setNumbers = {1, 2, 2, 3};
+  // print(setNumbers);
+
+  // Map
+  // Map<String, int> mapNumbers = {};
+  // mapNumbers["0"] = 0;
+  // mapNumbers["1"] = 10;
+  // mapNumbers["2"] = 20;
+  //
+  // print(mapNumbers["2"]);
 }

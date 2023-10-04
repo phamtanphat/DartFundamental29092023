@@ -8,11 +8,60 @@ void main() {
   // dynamic something = "Do something";
 
   // Sử dụng kiểu dữ liệu cụ thể
-  String name = "Pham Tan Phat";
-  int age = 29;
-  double weight = 70.5;
-  bool isMale = true;
-  String unicodePoint1 = "\u011C";
-  Runes unicodePoint2 = Runes("\u{011C}");
-  print(String.fromCharCodes(unicodePoint2));
+  // String name = "Pham Tan Phat";
+  // int age = 29;
+  // double weight = 70.5;
+  // bool isMale = true;
+  // String unicodePoint1 = "\u011C";
+  // Runes unicodePoint2 = Runes("\u{011C}");
+  // print(String.fromCharCodes(unicodePoint2));
+
+  // 2: Toan tu
+  // int number1 = 5;
+  // int number2 = number1++;
+
+  // 3: Cau dieu kien if else
+  // int a = 5;
+  // int b = 10;
+  //
+  // if (a > b) {
+  //   print("A lon hon B");
+  // } else if (a < b) {
+  //   print("A be hon B");
+  // } else {
+  //   print("A bang B");
+  // }
+
+  // 4: Cau dieu kien switch case
+  // int month = 5;
+  // switch(month) {
+  //   case 1:
+  //   case 2:
+  //   case 3: {
+  //     print("Qúy 1");
+  //     break;
+  //   }
+  //   case 4:
+  //   case 5:
+  //   case 6: {
+  //     print("Qúy 2");
+  //     break;
+  //   }
+  // }
+
+  // 5: Collection
+
+  // List
+  List<String> listPersons = [];
+
+  // Thêm dữ liệu vào mảng
+  listPersons.add("Tèo");
+  listPersons.add("Tí");
+  listPersons.add("Tủn");
+
+  // Xoá dữ liệu
+  listPersons.removeAt(0);
+
+  // Cập nhật
+  listPersons[0] = "Toàn";
 }

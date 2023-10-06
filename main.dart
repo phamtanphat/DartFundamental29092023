@@ -90,10 +90,7 @@ void main() {
   // print(calculator(1));
 
   // Class va object
-  Animal cat = Animal();
-  cat.name = "Mimi";
-  cat.color = "White";
-  cat.weight = 0.5;
+  Animal cat = Animal("Mimi", "white", 0.5);
   print("Name: ${cat.name}, color: ${cat.color}, weight: ${cat.weight}");
 }
 

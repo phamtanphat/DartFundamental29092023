@@ -5,4 +5,6 @@ class Animal {
   late String color;
   late double weight;
 
+  Animal(this.name, this.color, this.weight);
+
 }

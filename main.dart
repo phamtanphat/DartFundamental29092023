@@ -91,7 +91,9 @@ void main() {
 
   // Class va object
   Animal cat = Animal("Mimi", "white", 0.5);
-  print("Name: ${cat.name}, color: ${cat.color}, weight: ${cat.weight}");
+  cat.showInfoDetail();
+  cat.name = "abc";
+  print(cat.name);
 }
 
 // Phương thức thông thường

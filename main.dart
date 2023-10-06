@@ -1,3 +1,5 @@
+import 'animal.dart';
+
 void main() {
   // 1: Khai bao bien
 
@@ -85,7 +87,14 @@ void main() {
   //   city: "Ho Chi My"
   // );
 
-  print(calculator(1));
+  // print(calculator(1));
+
+  // Class va object
+  Animal cat = Animal();
+  cat.name = "Mimi";
+  cat.color = "White";
+  cat.weight = 0.5;
+  print("Name: ${cat.name}, color: ${cat.color}, weight: ${cat.weight}");
 }
 
 // Phương thức thông thường
@@ -107,6 +116,6 @@ void main() {
 // }
 
 // Positional option parameter
-int calculator([int a = 0, int b = 0]) {
-  return a + b;
-}
+// int calculator([int a = 0, int b = 0]) {
+//   return a + b;
+// }

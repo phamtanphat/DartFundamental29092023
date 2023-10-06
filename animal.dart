@@ -5,6 +5,10 @@ class Animal {
   late String color;
   late double weight;
 
+  // primary constructor
   Animal(this.name, this.color, this.weight);
+
+  // secondary constructor (Named constructor)
+  Animal.init(this.name, this.color);
 
 }

@@ -76,4 +76,30 @@ void main() {
   // mapNumbers["2"] = 20;
   //
   // print(mapNumbers["2"]);
+
+  // printMessage("Xin chao");
+  printLocation(
+    address: "120 Ly Thuong Kiet",
+    ward: "8",
+    district: "10",
+    city: "Ho Chi My"
+  );
+}
+
+// Phương thức thông thường
+// void printMessage(String message) {
+//   print(message);
+// }
+
+// Optional named parameter
+void printLocation({
+  String address = "",
+  String ward = "",
+  String district = "",
+  String city = ""
+}) {
+  if (address.isNotEmpty) print("Address: $address");
+  if (ward.isNotEmpty) print("War: $ward");
+  if (district.isNotEmpty) print("District: $district");
+  if (city.isNotEmpty) print("City: $city");
 }

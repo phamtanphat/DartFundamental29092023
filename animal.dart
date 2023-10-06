@@ -19,6 +19,22 @@ class Animal {
     _name = value;
   }
 
+  String get color {
+    return _color;
+  }
+
+  void set color(String value) {
+    _color = value;
+  }
+
+  double get weight {
+    return _weight;
+  }
+
+  void set weight(double value) {
+    _weight = value;
+  }
+
   void showInfoDetail() {
     print("Name: $_name, color: $_color, weight: $_weight");
   }

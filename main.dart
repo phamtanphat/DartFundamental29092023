@@ -1,4 +1,5 @@
 import 'animal.dart';
+import 'cat.dart';
 
 void main() {
   // 1: Khai bao bien
@@ -90,10 +91,8 @@ void main() {
   // print(calculator(1));
 
   // Class va object
-  Animal cat = Animal("Mimi", "white", 0.5);
+  Cat cat = Cat("Mimi", "white", 0.5, "Meo chan ngan");
   cat.showInfoDetail();
-  cat.name = "abc";
-  print(cat.name);
 }
 
 // Phương thức thông thường

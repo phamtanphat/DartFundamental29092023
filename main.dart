@@ -1,5 +1,5 @@
-import 'animal.dart';
-import 'cat.dart';
+import 'pizza_cheese.dart';
+import 'pizza_store.dart';
 
 void main() {
   // 1: Khai bao bien
@@ -91,8 +91,11 @@ void main() {
   // print(calculator(1));
 
   // Class va object
-  Cat cat = Cat("Mimi", "white", 0.5, "Meo chan ngan");
-  cat.showInfoDetail();
+  // Cat cat = Cat("Mimi", "white", 0.5, "Meo chan ngan");
+  // cat.showInfoDetail();
+
+  PiazzaStore piazzaStore = PiazzaStore();
+  piazzaStore.orderPizza(PizzaCheese());
 }
 
 // Phương thức thông thường
